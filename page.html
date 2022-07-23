@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
-    
+
     <title>نموذج البيانات</title>
 
 </head>
@@ -23,21 +23,21 @@
             <tbody>
 
                 <tr>
-                    <td><label for"tableo"> رقـــــم العقد &nbsp;&nbsp;</label>
+                    <td><label for="contractnumber"> رقـــــم العقد </label>
                         <input type="text" class="form-control">
                     </td>
-                    <td><label for="n">رقـــــم المـــــستند &nbsp;&nbsp;</label>
-                        <input type="number" class="form-control"  placeholder="0000000000">
+                    <td><label for="Documentnumber">رقـــــم المـــــستند </label>
+                        <input type="number" class="form-control" placeholder="0000000000">
                     </td>
                 </tr>
 
 
                 <tr>
-                    <td ><label for="e">اســــــم المـــــستند&nbsp;&nbsp;</label>
+                    <td><label for="Documentname">اســــــم المـــــستند&nbsp;&nbsp;</label>
                         <input type="text" class="form-control">
                     </td>
 
-                    <td ><label for="select">نـــــوع المـــــستند &nbsp;&nbsp;</label>
+                    <td><label for="Documenttype">نـــــوع المـــــستند &nbsp;&nbsp;</label>
                         <select class="form-control form-control-lg">
                             <option value="فرد">فـــرد</option>
                             <option value="جهة">جـــهة</option>
@@ -47,14 +47,14 @@
 
 
                 <tr>
-                    <td ><label for="sel">النــشاط الرئــيسي &nbsp;&nbsp;</label>
+                    <td><label for="mainactivity">النــشاط الرئــيسي &nbsp;&nbsp;</label>
                         <select class="form-control form-control-lg">
                             <option value="فرد"> </option>
                             <option value="جهة"> </option>
                         </select>
                     </td>
 
-                    <td ><label for="selec">النــشاط الفرعـــــي &nbsp;&nbsp;</label>
+                    <td><label for="subactivity">النــشاط الفرعـــــي &nbsp;&nbsp;</label>
                         <select class="form-control form-control-lg">
                             <option value="فرد"> </option>
                             <option value="جهة"> </option>
@@ -64,11 +64,11 @@
 
 
                 <tr>
-                    <td ><label for="tex">رقــم القـطعة &nbsp;&nbsp;</label>
+                    <td><label for="piecenumber">رقــم القـطعة &nbsp;&nbsp;</label>
                         <input class="form-control" type="text">
                     </td>
 
-                    <td><label for="um">مـــــبلغ الإيـــــجار &nbsp;&nbsp;</label>
+                    <td><label for="amountofrent">مـــــبلغ الإيـــــجار &nbsp;&nbsp;</label>
                         <input class="form-control" type="number">
                     </td>
                 </tr>
@@ -78,10 +78,10 @@
 
                 <tr>
 
-                    <td><label for="m">رقـــــم المطالبـــة &nbsp;&nbsp;</label>
+                    <td><label for="Claimamount">رقـــــم المطالبـــة &nbsp;&nbsp;</label>
                         <input class="form-control" type="number">
                     </td>
-                    <td><label for="s">حـــالةالعـــــقد &nbsp;&nbsp;</label>
+                    <td><label for="ContractStatus">حـــالةالعـــــقد &nbsp;&nbsp;</label>
                         <select class="form-control form-control-lg">
                             <option value="فرد"> ســاري</option>
                             <option value="جهة"> منــتهي</option>
@@ -93,8 +93,8 @@
 
 
                 <tr>
-                    <td><label for="op">نـــــوع العقد &nbsp;&nbsp;</label>
-                        <select class="form-control form-control-lg" >
+                    <td><label for="TypeofContract">نـــــوع العقد &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg">
                             <option value="فرد"> مباشر</option>
                             <option value="جهة">مؤقت </option>
                             <option value="جهة"> مزايدات</option>
@@ -103,8 +103,8 @@
 
 
 
-                    <td ><label for="l">حـــالةالســـداد &nbsp;&nbsp;</label>
-                        <select class="form-control form-control-lg" >
+                    <td><label for="Paymentstatus">حـــالةالســـداد &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg">
                             <option value="فرد">المسدد </option>
                             <option value="جهة"> المستحق</option>
                             <option value="جهة"> الكل</option>
@@ -113,7 +113,7 @@
                 </tr>
 
                 <tr>
-                    <td><label for="m">تاريخ العــــــــــقد &nbsp;&nbsp;</label><br>
+                    <td><label for="Dateofcontract">تاريخ العــــــــــقد &nbsp;&nbsp;</label><br>
                         من <input class="form-control" type="date"><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                         &nbsp; &nbsp; &nbsp;
                         &nbsp; &nbsp; &nbsp;<br>
@@ -121,14 +121,14 @@
                     </td>
 
 
-                    <td ><label for=" r">رقـــــم القطعة &nbsp;&nbsp;</label>
-                        <input class="form-control" type="number"  placeholder="000000000000000">
+                    <td><label for="piecenumber">رقـــــم القطعة &nbsp;&nbsp;</label>
+                        <input class="form-control" type="number" placeholder="000000000000000">
                     </td>
                 </tr>
 
             </tbody>
         </table><br>
-        <div >
+        <div>
             <button type="button" id="button" class=" btn btn-warning">حفظ</button>
         </div>
         <footer>
