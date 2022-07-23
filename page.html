@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/csspage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    
+    <title>نموذج البيانات</title>
+
+</head>
+
+<body class="bg-light"><br>
+    <h3 class="container p-3 mb-1 bg-info text-white">نموذج تعبئة</h3>
+    <br><br>
+
+    <div class="container-md">
+
+        <table id="table" class="table table-borderless  p-3 mb-2 bg-white" width="100%">
+            <tbody>
+
+                <tr>
+                    <td><label for"tableo"> رقـــــم العقد &nbsp;&nbsp;</label>
+                        <input type="text" class="form-control">
+                    </td>
+                    <td><label for="n">رقـــــم المـــــستند &nbsp;&nbsp;</label>
+                        <input type="number" class="form-control"  placeholder="0000000000">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td ><label for="e">اســــــم المـــــستند&nbsp;&nbsp;</label>
+                        <input type="text" class="form-control">
+                    </td>
+
+                    <td ><label for="select">نـــــوع المـــــستند &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg">
+                            <option value="فرد">فـــرد</option>
+                            <option value="جهة">جـــهة</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td ><label for="sel">النــشاط الرئــيسي &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg">
+                            <option value="فرد"> </option>
+                            <option value="جهة"> </option>
+                        </select>
+                    </td>
+
+                    <td ><label for="selec">النــشاط الفرعـــــي &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg">
+                            <option value="فرد"> </option>
+                            <option value="جهة"> </option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td ><label for="tex">رقــم القـطعة &nbsp;&nbsp;</label>
+                        <input class="form-control" type="text">
+                    </td>
+
+                    <td><label for="um">مـــــبلغ الإيـــــجار &nbsp;&nbsp;</label>
+                        <input class="form-control" type="number">
+                    </td>
+                </tr>
+
+
+
+
+                <tr>
+
+                    <td><label for="m">رقـــــم المطالبـــة &nbsp;&nbsp;</label>
+                        <input class="form-control" type="number">
+                    </td>
+                    <td><label for="s">حـــالةالعـــــقد &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg">
+                            <option value="فرد"> ســاري</option>
+                            <option value="جهة"> منــتهي</option>
+                            <option value="جهة"> ملــغى</option>
+                        </select>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+                    <td><label for="op">نـــــوع العقد &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg" >
+                            <option value="فرد"> مباشر</option>
+                            <option value="جهة">مؤقت </option>
+                            <option value="جهة"> مزايدات</option>
+                        </select>
+                    </td>
+
+
+
+                    <td ><label for="l">حـــالةالســـداد &nbsp;&nbsp;</label>
+                        <select class="form-control form-control-lg" >
+                            <option value="فرد">المسدد </option>
+                            <option value="جهة"> المستحق</option>
+                            <option value="جهة"> الكل</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="m">تاريخ العــــــــــقد &nbsp;&nbsp;</label><br>
+                        من <input class="form-control" type="date"><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp;<br>
+                        الى <input class="form-control" type="date">
+                    </td>
+
+
+                    <td ><label for=" r">رقـــــم القطعة &nbsp;&nbsp;</label>
+                        <input class="form-control" type="number"  placeholder="000000000000000">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table><br>
+        <div >
+            <button type="button" id="button" class=" btn btn-warning">حفظ</button>
+        </div>
+        <footer>
+            <br><br>
+        </footer>
+
+</body>
+
+</html>
